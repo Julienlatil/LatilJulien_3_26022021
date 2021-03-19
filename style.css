@@ -181,6 +181,7 @@ ul, ol {
 }
 .fonction__icon {
   color: #707070;
+  padding-right: 10px;
 }
 .fonction__icon:hover {
   color: #9356DC;
