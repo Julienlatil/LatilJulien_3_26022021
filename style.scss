@@ -199,6 +199,8 @@ ul, ol
 		display: flex;
 		list-style: none;
 		font-weight:lighter;
+		max-width: 88%;
+		left: -14px;
 		&::before
 		{
 			counter-increment: section;
@@ -214,17 +216,21 @@ ul, ol
 			position: absolute;
 			left: -12px;
 		}
+		&:hover {background-color: #d5d2da;
+		cursor:pointer}
 
 	}
 
 	&__text
 	{
 		padding-left:22px;
+	
 	}
 
 	&__icon
 	{
 		color:rgb(112, 112, 112);
+		padding: 2px 0px 1px 10px;
 		&:hover
 		{
 		color:#9356DC}
