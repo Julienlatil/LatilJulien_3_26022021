@@ -259,8 +259,7 @@ ul, ol {
   font-weight: bold;
 }
 .carte__menu {
-  padding-left: 15px;
-  padding-bottom: 10px;
+  padding: 0 0 10px 15px;
 }
 .carte__btn {
   position: absolute;
@@ -360,7 +359,7 @@ ul, ol {
   padding-bottom: 8px;
   font-weight: normal;
   border-bottom: 3px solid #99E2D0;
-  width: 11%;
+  width: 8%;
 }
 
 @keyframes slow {
