@@ -384,17 +384,20 @@ ul, ol {
 .racinecard__header {
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
   flex: 1;
 }
 .racinecard__titre {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 .racinecard__ing {
   margin: 0;
   white-space: nowrap;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 .racinecard__prix {
   font-weight: bold;
