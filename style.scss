@@ -36,6 +36,7 @@ ul, ol
 		opacity:0;
 		position: relative;
 	}
+
 }
 
 .loader
@@ -70,6 +71,7 @@ ul, ol
 		}
 
 	}
+
 }
 
 @keyframes load
@@ -83,6 +85,7 @@ ul, ol
 	{
 		transform: scale(2);
 	}
+
 }
 
 /* Header */
@@ -213,11 +216,9 @@ ul, ol
 			position: absolute;
 			left: -12px;
 		}
-
-		&:hover
-		{
-			background-color: rgba(241, 232, 250, 0.9);
+		&:hover {background-color: rgba(241, 232, 250, 0.9);
 			color:#9356DC;
+		
 		cursor:pointer}
 
 	}
@@ -226,11 +227,15 @@ ul, ol
 	{
 		padding-left:22px;
 		color:black !important;
+	
 	}
 
 	&__icon
 	{
+		
 		padding: 2px 0px 1px 12px;
+		
+
 	}
 }
 
@@ -319,14 +324,17 @@ ul, ol
 	&__menu
 	{
 		padding: 0 0 10px 15px;
+	
 	}
+	
 
 	&__btn
 	{
 		position: absolute;
 		text-align:right;
 		top: 80%;
-	right:2%    }
+	    right:2%    
+}
 
 	&__likev
 	{
@@ -396,6 +404,7 @@ ul, ol
 /* PAGES MENUS */
 .photoresto
 {
+	
 	max-height: 500px;
 	width: 100%;
 	object-fit: cover;
@@ -407,6 +416,7 @@ ul, ol
 	border-radius: 32px 32px 0 0;
 	background-color: #f6f6f6;
 	z-index: 1;
+
 	&__header
 	{
 		padding: 16px 32px 0 16px;
@@ -441,6 +451,7 @@ ul, ol
 	&__titre
 	{
 		text-transform: uppercase;
+		
 		padding-bottom: 8px;
 		font-weight: normal;
 		border-bottom: 3px solid #99E2D0;
@@ -458,6 +469,7 @@ ul, ol
 	{
 		transform: scale(1);
 	}
+
 }
 
 .racinecard
@@ -480,6 +492,7 @@ ul, ol
 	{
 		white-space: nowrap;
 		text-overflow: ellipsis;
+		overflow: hidden;
 		flex: 1;
 	}
 
@@ -488,6 +501,8 @@ ul, ol
 		margin: 0;
 		white-space: nowrap;
 		text-overflow: ellipsis;
+		overflow: hidden;
+		
 	}
 
 	&__ing
@@ -495,6 +510,7 @@ ul, ol
 		margin: 0;
 		white-space: nowrap;
 		text-overflow: ellipsis;
+		overflow: hidden;
 	}
 
 	&__prix
@@ -544,6 +560,8 @@ ul, ol
 	{
 	color: #99E2D0}
 }
+
+
 
 .buttonracine
 {
