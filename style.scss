@@ -4,6 +4,7 @@ body
 {
 	font-family: roboto;
 	margin: 0;
+	width: 100%;
 }
 
 ul, ol
@@ -35,7 +36,6 @@ ul, ol
 		opacity:0;
 		position: relative;
 	}
-
 }
 
 .loader
@@ -43,7 +43,6 @@ ul, ol
 	width: 100%;
 	height: 100%;
 	background-color: #838383;
-	opacity: 0.9;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -71,7 +70,6 @@ ul, ol
 		}
 
 	}
-
 }
 
 @keyframes load
@@ -85,7 +83,6 @@ ul, ol
 	{
 		transform: scale(2);
 	}
-
 }
 
 /* Header */
@@ -216,7 +213,11 @@ ul, ol
 			position: absolute;
 			left: -12px;
 		}
-		&:hover {background-color: #d5d2da;
+
+		&:hover
+		{
+			background-color: rgba(241, 232, 250, 0.9);
+			color:#9356DC;
 		cursor:pointer}
 
 	}
@@ -224,17 +225,12 @@ ul, ol
 	&__text
 	{
 		padding-left:22px;
-	
+		color:black !important;
 	}
 
 	&__icon
 	{
-		color:rgb(112, 112, 112);
-		padding: 2px 0px 1px 10px;
-		&:hover
-		{
-		color:#9356DC}
-
+		padding: 2px 0px 1px 12px;
 	}
 }
 
@@ -322,8 +318,7 @@ ul, ol
 
 	&__menu
 	{
-		padding-left: 15px;
-		padding-bottom: 10px;
+		padding: 0 0 10px 15px;
 	}
 
 	&__btn
@@ -331,8 +326,7 @@ ul, ol
 		position: absolute;
 		text-align:right;
 		top: 80%;
-	    right:2%    
-}
+	right:2%    }
 
 	&__likev
 	{
@@ -402,7 +396,6 @@ ul, ol
 /* PAGES MENUS */
 .photoresto
 {
-	max-width: 100%;
 	max-height: 500px;
 	width: 100%;
 	object-fit: cover;
@@ -414,7 +407,6 @@ ul, ol
 	border-radius: 32px 32px 0 0;
 	background-color: #f6f6f6;
 	z-index: 1;
-	position: relative;
 	&__header
 	{
 		padding: 16px 32px 0 16px;
@@ -449,7 +441,6 @@ ul, ol
 	&__titre
 	{
 		text-transform: uppercase;
-		position: relative;
 		padding-bottom: 8px;
 		font-weight: normal;
 		border-bottom: 3px solid #99E2D0;
@@ -467,7 +458,6 @@ ul, ol
 	{
 		transform: scale(1);
 	}
-
 }
 
 .racinecard
@@ -490,7 +480,6 @@ ul, ol
 	{
 		white-space: nowrap;
 		text-overflow: ellipsis;
-		overflow: hidden;
 		flex: 1;
 	}
 
@@ -499,7 +488,6 @@ ul, ol
 		margin: 0;
 		white-space: nowrap;
 		text-overflow: ellipsis;
-		overflow: hidden;
 	}
 
 	&__ing
@@ -507,7 +495,6 @@ ul, ol
 		margin: 0;
 		white-space: nowrap;
 		text-overflow: ellipsis;
-		overflow: hidden;
 	}
 
 	&__prix
